@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+
+  align-items: center;
+}
+
+video {
+  width: 68vw;
+}
+
+.video-2 {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+
+}
+
+.mascara {
+  height: 100vh;
+  width: 70vw;
+  /* background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgb(10, 12, 16, 0.99) 85%); */
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  margin-top: 0px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+form {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+
+}
+
+input {
+  width: 380px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+
+  transition: 1s color ease-in-out;
+  font-size: 30px;
+  color: #000;
+
+}
+
+textarea {
+  width: 350px;
+  height: 100px;
+}
+
+.class-form-1 {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px;
+  position: fixed;
+  left: -399px;
+  transition: left 1s linear;
+  z-index: 4;
+  margin-top: 110px;
+}
+
+.mascara-form {
+  visibility: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  margin: 20px;
+  border: 5px;
+  border-radius: 5px;
+  background-color: rgba(183, 182, 182, 0.623);
+  cursor: pointer;
+}
+
+/* .viewport-1 {
+    position: fixed;
+    padding-left: 2000px;
+    width: 600px;
+    top: 0px;
+} */
+
+.viewport {
+  position: fixed;
+  align-items: center;
+  width: 27vw;
+  margin: 70px;
+  flex-direction: column;
+  margin-left: 2000px;
+
+}
+
+.charset-1 {
+  color: blue;
+  width: 100%;
+  margin-top: 600px;
+}
+
+.button-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 600px;
+  margin-right: 700px;
+  padding: 20px;
+  color: #000;
+  height: 70px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 2000px;
+}
+
+button:hover {
+  font-size: 30px;
+  background-color: red;
+  transition: 1s color ease-in-out;
+  color: #fff;
+}
+
+@media (max-width: 1022px) {
+
+  .video-2 {
+    width: 36%;
+  }
+
+  .viewport {
+    position: fixed;
+    /* align-items: center; */
+    width: 27vw;
+    margin: 22%;
+    flex-direction: column;
+    margin-left: 64px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .button-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+    margin-right: 700px;
+    padding: 20px;
+    color: #000;
+    height: 70px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 14px;
+  }
+  .class-form-1 {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    position: fixed;
+    left: -390px;
+    transition: left 1s linear;
+    z-index: 4;
+    margin-top: 1449px;
+
+  }
+  form {
+    display: flex;
+    margin-top: -45%;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    justify-content: center;
+    margin-right: 660px;
+
+  }
+
+  .mascara-form {
+    visibility: hidden;
+    height: 32vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* class="viewport-1" */
+
+
+
+/* @media (max-width: 1024px) {
+    .video-2 {
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px 0;
+      gap: 15px;
+    }
+
+     .viewport-1{
+position: 15px;
+left: 15px;
+      }
+   
+    */
+/*   
+
+    .cabecalho .menu li a {
+      padding: 15px;
+    }
+  
+    .home .informacoes {
+      padding: 30px;
+    }
+  
+    .home .informacoes img {
+      max-width: 100px;
+    }
+  
+    .home .informacoes .titulo {
+      font-size: 40px;
+    }
+  
+    .compre-ja .cartao {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .compre-ja {
+      padding: 30px;
+    }
+  
+    .compre-ja .cartao {
+      padding: 80px 20px;
+      width: 100%;
+    }
+  
+    .compre-ja .informacoes h3 {
+      font-size: 35px;
+    }
+  
+    .compre-ja .informacoes .plataformas {
+      flex-direction: column;
+    }
+  
+    .btn-plataforma {
+      margin-top: 15px;
+      padding: 15px;
+    }
+  
+    .btn-comprar {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    main::after {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+  
+    .compre-ja .cartao .capa-do-jogo {
+      max-width: 80%;
+    }
+  }  */
